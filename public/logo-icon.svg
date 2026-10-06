@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECCF8E"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9E7B35"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6BE"/>
+      <stop offset="100%" stop-color="#D9B46F"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18366E"/>
+      <stop offset="60%" stop-color="#0B1B3D"/>
+      <stop offset="100%" stop-color="#050E20"/>
+    </linearGradient>
+    <linearGradient id="navyDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F244F"/>
+      <stop offset="100%" stop-color="#040914"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagonal P Logo mark -->
+  <!-- Left Side: Navy 'P' Spine and Outer Hexagon Edge -->
+  <path d="M100 24 L36 61 V137 L58 124 V74 L100 50 L108 55 L108 30 Z" fill="url(#navyDark)" />
+  <path d="M58 74 L100 50 L118 60 V102 L96 115 L96 90 L80 100 V130 L100 142 L118 131 V102 L128 96 V137 L100 153 L58 128 V74 Z" fill="url(#navyGrad)" opacity="0.95"/>
+  <path d="M58 74 V128 L80 141 V87 Z" fill="url(#navyDark)"/>
+  
+  <!-- Center Open Door / Gate in Gold -->
+  <path d="M96 115 L118 102 V148 L96 160 Z" fill="url(#goldGrad)"/>
+  <path d="M118 102 L124 105 V152 L118 148 Z" fill="url(#goldLight)"/>
+
+  <!-- Right Side: Two Vertical Gold Hexagon Columns -->
+  <!-- Pillar 1 -->
+  <path d="M130 36 L144 44 V148 L130 140 Z" fill="url(#goldGrad)"/>
+  <path d="M144 44 L149 47 V151 L144 148 Z" fill="url(#goldLight)"/>
+
+  <!-- Pillar 2 (Outer Right Edge) -->
+  <path d="M152 48 L164 55 V136 L152 129 Z" fill="url(#goldGrad)"/>
+  <path d="M164 55 L168 58 V134 L164 136 Z" fill="url(#goldLight)"/>
+</svg>
