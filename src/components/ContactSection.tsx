@@ -48,13 +48,16 @@ export const ContactSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-sm font-bold text-polygate-navy-900 uppercase tracking-wide">
-                  Management & Compounding Facilities
+                  Corporate Headquarters
                 </h4>
+                <p className="text-xs font-bold text-slate-800 mt-1">
+                  POLYGATE İÇ VE DIŞ TİCARET LİMİTED ŞİRKETİ
+                </p>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  P.C. No. 36 / 37 / 38 Industrial Zone A6, 10th of Ramadan City, Egypt.
+                  ATAKENT MAH, DADALOGLU CAD. GUN ÇİÇEK SİTESİ B GİRİŞİ NO: 5 İÇ KAPI NO: 23 UMRANİYE / İSTANBUL - Türkiye
                 </p>
                 <span className="text-[11px] text-polygate-gold-600 font-semibold block mt-1">
-                  Global Maritime Export via Alexandria & Port Said
+                  International Trade & Polymer Distribution Hub
                 </span>
               </div>
             </div>
@@ -65,22 +68,19 @@ export const ContactSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-sm font-bold text-polygate-navy-900 uppercase tracking-wide">
-                  Corporate & Commercial Emails
+                  Corporate & Commercial Email
                 </h4>
                 <div className="text-xs text-slate-600 mt-1 space-y-1">
                   <div>
-                    <span className="font-semibold text-slate-800">Sales Inquiries: </span>
-                    <a href="mailto:sales@polygate.com" className="hover:text-polygate-gold-600 underline">
-                      sales@polygate.com
-                    </a>
-                  </div>
-                  <div>
-                    <span className="font-semibold text-slate-800">Technical R&D: </span>
-                    <a href="mailto:tech@polygate.com" className="hover:text-polygate-gold-600 underline">
-                      tech@polygate.com
+                    <span className="font-semibold text-slate-800">Email: </span>
+                    <a href="mailto:polygate.dz.tr@gmail.com" className="hover:text-polygate-gold-600 underline font-medium">
+                      polygate.dz.tr@gmail.com
                     </a>
                   </div>
                 </div>
+                <span className="text-[11px] text-slate-500 block mt-1">
+                  Direct commercial inquiries, technical dossiers, and requests
+                </span>
               </div>
             </div>
 
@@ -93,9 +93,16 @@ export const ContactSection: React.FC = () => {
                   Telephone & Export Desk
                 </h4>
                 <div className="text-xs text-slate-600 mt-1 space-y-1">
-                  <div>Toll Free / WhatsApp: <a href="tel:+18005827659" className="font-semibold text-slate-800 hover:text-polygate-gold-600">+1 (800) 582-POLY</a></div>
-                  <div>Headquarters: <a href="tel:+201020707777" className="font-semibold text-slate-800 hover:text-polygate-gold-600">+20 10 2070 7777</a></div>
+                  <div>
+                    <span className="font-semibold text-slate-800">Tel: </span>
+                    <a href="tel:+905359334518" className="font-semibold text-slate-800 hover:text-polygate-gold-600">
+                      0090 (535) 933 45 18
+                    </a>
+                  </div>
                 </div>
+                <span className="text-[11px] text-slate-500 block mt-1">
+                  Available for calls, orders, and inquiries
+                </span>
               </div>
             </div>
 
@@ -108,8 +115,8 @@ export const ContactSection: React.FC = () => {
                   Operating Hours
                 </h4>
                 <p className="text-xs text-slate-600 mt-1">
-                  Sunday - Thursday: 08:00 AM - 18:00 PM (GMT+2)<br />
-                  24/7 Automated RFQ Processing & Dispatch
+                  Monday - Saturday: 08:30 AM - 18:30 PM (TRT / UTC+3)<br />
+                  24/7 RFQ & Technical Inquiry Processing Desk
                 </p>
               </div>
             </div>

@@ -93,19 +93,23 @@ export const Footer: React.FC<FooterProps> = () => {
             </h4>
             
             <div className="text-xs space-y-2.5 text-slate-400 pt-1">
+              <div className="text-white font-bold tracking-wide">
+                POLYGATE İÇ VE DIŞ TİCARET LİMİTED ŞİRKETİ
+              </div>
+
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-polygate-gold-500 flex-shrink-0 mt-0.5" />
-                <span>P.C. No. 36 / 37 / 38 Industrial Zone A6, 10th of Ramadan City, Egypt</span>
+                <span>ATAKENT MAH, DADALOGLU CAD. GUN ÇİÇEK SİTESİ B GİRİŞİ NO: 5 İÇ KAPI NO: 23 UMRANİYE / İSTANBUL - Türkiye</span>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-polygate-gold-500 flex-shrink-0" />
-                <span>Phone: <a href="tel:+18005827659" className="text-slate-200 hover:text-polygate-gold-400">+1 (800) 582-POLY</a> , <a href="tel:+201020707777" className="text-slate-200 hover:text-polygate-gold-400">+20 10 2070 7777</a></span>
+                <span>Phone: <a href="tel:+905359334518" className="text-slate-200 hover:text-polygate-gold-400">0090 (535) 933 45 18</a></span>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-polygate-gold-500 flex-shrink-0" />
-                <span>Email: <a href="mailto:sales@polygate.com" className="text-slate-200 hover:text-polygate-gold-400">sales@polygate.com</a></span>
+                <span>Email: <a href="mailto:polygate.dz.tr@gmail.com" className="text-slate-200 hover:text-polygate-gold-400">polygate.dz.tr@gmail.com</a></span>
               </div>
             </div>
           </div>
@@ -115,7 +119,7 @@ export const Footer: React.FC<FooterProps> = () => {
         {/* Bottom Copyright Bar */}
         <div className="mt-12 pt-8 border-t border-polygate-navy-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            © Copyright <strong className="text-white">POLYGATE Polymers</strong>. All Rights Reserved
+            © Copyright <strong className="text-white">POLYGATE İÇ VE DIŞ TİCARET LİMİTED ŞİRKETİ</strong>. All Rights Reserved
           </div>
 
           <button
