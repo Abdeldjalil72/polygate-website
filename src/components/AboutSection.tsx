@@ -86,7 +86,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative mx-auto max-w-lg lg:max-w-none">
               
-              {/* Main Factory Photography (Actual Image from Elsewedy) */}
+              {/* Main Headquarters Photography (Authentic POLYGATE Facility) */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
                 <img
                   src="/storage/about/about.jpg"
